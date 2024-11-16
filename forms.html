@@ -8,10 +8,10 @@
 <body>
     <form method="get">
         <label for="">Name</label>
-        <input type="text" name="name">
+        <input type="text" name="name" required>
         <br>
         <label for="">Email</label>
-        <input type="email" name="email">
+        <input type="email" name="email" value="prasanth@gmail.com" disabled>
         <br>
         <label for="">Mobile</label>
         <input type="number" name="mobile">
@@ -29,10 +29,21 @@
         <label for="java">Java</label>
         <input type="checkbox" name="skills" id="mysql" value="mysql">
         <label for="mysql">Mysql</label>
+        <br>
 
+        <label for="state">State</label>
+        <select name="state" id="state" required>
+            <option value="">Select</option>
+            <option value="ap">Andhra Pradesh</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="ts">Telangana</option>
+            <option value="punjab">Punjab</option>
+        </select>
+        <br>
+        <input type="range" min="0" max="100">
         <br>
         <input type="reset">
-        <button>Submit</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
