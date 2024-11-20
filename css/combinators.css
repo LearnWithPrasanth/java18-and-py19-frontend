@@ -1,0 +1,21 @@
+/* Desendant */
+
+/* .navbar a {
+    color: red;
+} */
+
+/* Chlid */
+/* .navbar > a {
+    color: red;
+} */
+
+
+/* Adjacent Sibling */
+/* li + a {
+    color: brown;
+} */
+
+/* General Sibling */
+/* li ~ a {
+    color: brown;
+} */
