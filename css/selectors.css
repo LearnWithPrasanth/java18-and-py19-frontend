@@ -1,0 +1,28 @@
+/* Universal Selector */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Element Selector */
+h1 {
+    color: red;
+}
+
+/* Class Selector */
+.class1 {
+    color: blue;
+}
+
+.class2 {
+    font-size: 40px;
+}
+
+/* ID Selector */
+#id1 {
+    color: violet;
+}
+
+/* Attribute Selector */
+[data-attr="attr"] {
+    color: blueviolet;
+}
