@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css style img</title>
+    <style>
+        .cat{
+            display: flex;
+            justify-content: space-around;
+            flex-direction:row;
+            display: grid;
+            grid-template-columns: 300px auto;
+            gap:10px;
+            row-gap: 5px;
+            column-gap: 25px;
+
+        }
+        div img{
+            
+            border: solid 2px rgb(239, 54, 17);
+            transition: 1s;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+        div img:hover{
+            transform: scale(1.3);
+            z-index: index 1;;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+             transition: 1s;
+             padding: 40px;
+             position: sticky;
+        }
+         .logo{
+            cursor: pointer;
+            margin: 0%;
+            padding: 30px;
+            color:whitesmoke;
+            font-style:italic;
+            border-radius: 40px;
+            transition: 1s;
+            font-size: xx-large;
+            backdrop-filter: blur(3px);
+            position: sticky;
+        }
+        .logo:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        .lo{
+            cursor: pointer;
+            transition: 1s;
+            color:white;
+            border-radius: 40px;
+            font-size: larger;
+            backdrop-filter: blur(4px);
+        }
+        .lo:hover{
+            transform: scale(2);
+            z-index: 3;
+        }
+        .lo::after{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body background="https://www.thoughtco.com/thmb/opOLmUB6q9fHOlke7cuY8YceMfY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1086740226-5c2d625a4cedfd00016ed36c.jpg">
+    <nav>
+        <div class="logo">MADHAN</div>
+            <div class="lo"> Home</div>
+                <div class="lo"> About</div>
+                    <div class="lo"> Contact</div>
+                         </nav>
+
+    <div class="cat">
+        <div ><img src="https://img.freepik.com/premium-photo/two-birds-branch-with-pink-flowers_865967-8221.jpg?w=360" alt="" width="600px" height="300px"></div>
+        <div><img src="https://i.pinimg.com/736x/c6/f1/02/c6f102b9cce43ce7dce74e4e93eca697.jpg" alt="" width="600px" height="300px"></div>
+        <div><img src="https://t4.ftcdn.net/jpg/06/12/78/21/360_F_612782197_qYbQhUKCKuZM7StLjbmLRVs2Pmu0ZTCO.jpg" alt="" width="600px" height="300px"></div>
+        <div><img src="https://media.istockphoto.com/id/981505920/photo/parent-robin-bird-feeding-young.jpg?s=612x612&w=0&k=20&c=vDmW5ElJNvJm7Q2BIXeU8DKEk-Ywn-yp91G6yojxQtA=" alt="" width="600px" height="300px"></div>
+        <div><img src="https://img.freepik.com/premium-photo/two-birds-branch-with-pink-flowers_865967-35748.jpg" alt="" width="600px" height="300px"></div>
+        </div>
+
+    </body>
+</html>
