@@ -1,0 +1,31 @@
+.flex-container {
+    border: solid 2px red;
+    height: 400px;
+}
+
+.flex-item {
+    border: solid 2px;
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Default is row */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+.flex-item-1 {
+    align-self: center;
+}
+
+.flex-item-2 {
+    /* flex-shrink: 0; */
+    /* flex-grow: 1; */
+}
+
+.flex-item-3 {
+    /* flex-grow: 2; */
+    flex-basis: 10px;
+}
