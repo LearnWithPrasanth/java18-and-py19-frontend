@@ -50,16 +50,31 @@ let arr = [1, true, "two", [1, 2, 3]];
 
 // console.log(student.gender);
 
-let employees = [
-    {
-        empId: 1,
-        name: "Ram",
-        subject: ["Java", "Spring"],
-    },
-    {
-        empId: 2,
-        name: "Madhan",
-        subject: ["SQL", "Java", "Spring"],
-    },
-];
-console.log(employees[0].subject[0]);
+// let employees = [
+//     {
+//         empId: 1,
+//         name: "Ram",
+//         subject: ["Java", "Spring"],
+//     },
+//     {
+//         empId: 2,
+//         name: "Madhan",
+//         subject: ["SQL", "Java", "Spring"],
+//     },
+// ];
+// console.log(employees[0].subject[0]);
+
+// Functions
+// function sample(a, b, ...rest) {
+//     console.log("Function called", a, b, rest);
+//     return a + b;
+// }
+
+// let sample = function (a, b, ...rest) {
+//     console.log("Function called", a, b, rest);
+//     return a + b;
+// };
+
+// let sample = (a, b) => a + b;
+// let res = sample(2, 6);
+// console.log(res);
